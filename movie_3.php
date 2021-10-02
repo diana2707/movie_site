@@ -21,13 +21,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="movies.html">Movies</a>
+            <a class="nav-link active" aria-current="page" href="movies.php">Movies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            <a class="nav-link active" aria-current="page" href="contact.php">Contact</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -38,19 +38,17 @@
     </div>
   </nav>
       <div class="container">
-        <h1>Shrek</h1>
-        <div class="container">
-          <div class="row align-items-start">
-            <div class="col-3">
-              <img src="https://static.cinemagia.ro/img/db/movie/00/02/36/shrek-488112l.jpg?ts=1253268939" class="poster" alt="Shrek poster">
-            </div>
-            <div class="col-9">
-              <b>Release date:</b> May 18, 2021 <br>
-              <b>Runtime:</b> 1h 29m <br>
-              <b>Director:</b> Andrew Adamson, Vicky Jenson <br>
-              <b>Cast:</b> Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow <br>
-              <b>Synopsis:</b> When a green ogre named Shrek discovers his swamp has been 'swamped' with all sorts of fairytale creatures by the scheming Lord Farquaad, Shrek sets out with a very loud donkey by his side to 'persuade' Farquaad to give Shrek his swamp back. Instead, a deal is made. Farquaad, who wants to become the King, sends Shrek to rescue Princess Fiona, who is awaiting her true love in a tower guarded by a fire-breathing dragon. But once they head back with Fiona, it starts to become apparent that not only does Shrek, an ugly ogre, begin to fall in love with the lovely princess, but Fiona is also hiding a huge secret.
-            </div>
+        <h1>Finding Nemo</h1>
+        <div class="row">
+          <div class="col-3">
+            <img src="https://static.cinemagia.ro/img/resize/db/movie/00/39/87/finding-nemo-271661l-1600x1200-n-72e6b914.jpg" class="poster" alt="Finding Nemo poster">
+          </div>
+          <div class="col-9">
+            <b>Release date:</b> Nov 4, 2003 <br>
+            <b>Runtime:</b> 1h 40m <br>
+            <b>Director:</b> Andrew Stanton <br>
+            <b>Cast:</b> Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe <br>
+            <b>Synopsis:</b> A clown fish named Marlin lives in the Great Barrier Reef and loses his son, Nemo, after he ventures into the open sea, despite his father's constant warnings about many of the ocean's dangers. Nemo is abducted by a boat and netted up and sent to a dentist's office in Sydney. While Marlin ventures off to try to retrieve Nemo, Marlin meets a fish named Dory, a blue tang suffering from short-term memory loss. The companions travel a great distance, encountering various dangerous sea creatures such as sharks, anglerfish and jellyfish, in order to rescue Nemo from the dentist's office, which is situated by Sydney Harbour. While the two are searching the ocean far and wide, Nemo and the other sea animals in the dentist's fish tank plot a way to return to the sea to live their lives free again.
           </div>
         </div>
       </div>

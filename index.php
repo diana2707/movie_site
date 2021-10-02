@@ -10,24 +10,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <?php
+  define('LOGO_NAME','DR');
+  ?>
   <div class="page-container">
     <div class="content-wrap">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Diana</a>
+          <a class="navbar-brand" href="#"><?php echo LOGO_NAME; ?></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="movies.html">Movies</a>
+                <a class="nav-link active" aria-current="page" href="movies.php">Movies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                <a class="nav-link active" aria-current="page" href="contact.php">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -52,10 +55,10 @@
     </div>
       <div class="container" class="welcome">
         <p>Find the best animations right here</p>
-        <a href="movies.html"><button type="button" class="btn btn-primary">Movies</button></a>
+        <a href="movies.php"><button type="button" class="btn btn-primary">Movies</button></a>
       </div>
     </div>
-    <div class="footer">Copyright, toate drepturile rezervate.</div>
+    <div class="footer"><?php echo LOGO_NAME.'. '; ?>Copyright, toate drepturile rezervate.</div>
   </div> 
 </body>
 </html>
