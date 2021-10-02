@@ -1,0 +1,43 @@
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+.content-wrap{
+    padding-bottom: 4rem;
+}
+.footer {
+    position: absolute;
+    background-color: lightgrey;
+    margin-top: 10px;
+    bottom: 0;
+    height:3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.poster {
+    width: 100%; 
+    margin:10px;
+}
+
+.card {
+    margin:10px;
+    
+}
+
+.carousel {
+    width: 300px;
+    height: 400px;
+    margin:auto;
+    padding:2rem;
+}
+
+.welcome{
+    margin: auto;
+    align-content: center;
+}
+.card {
+    align-items:strech;
+}
